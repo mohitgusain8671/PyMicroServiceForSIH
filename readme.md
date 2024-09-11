@@ -22,20 +22,17 @@ This FastAPI microservice provides endpoints for predicting fertilizer requireme
 2. **Create and activate a virtual environment:**
 
     ```bash
-    Copy code
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 3. **Install the required dependencies:**
 
     ```bash
-    Copy code
     pip install -r requirements.txt
     ```
 4. **Run the FastAPI application:**
 
     ```bash
-    Copy code
     uvicorn app.main:app --reload
     ```
 The application will start at http://127.0.0.1:8000.
